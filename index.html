@@ -32,13 +32,14 @@
         }
 
         .profile-img {
-            width: 96px;
-            height: 96px;
-            border-radius: 50%;
-            background: var(--accent);
-            margin-bottom: 16px;
-            border: 3px solid var(--glass-bg);
-        }
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: var(--accent);
+    margin-bottom: 16px;
+    border: 3px solid var(--glass-bg);
+    object-fit: cover; /* Add this to prevent stretching */
+}
 
         h1 { font-size: 1.5rem; margin-bottom: 4px; }
         p { color: #94a3b8; margin-bottom: 32px; font-size: 0.9rem; }
@@ -76,18 +77,17 @@
 <body>
 
     <div class="container">
-        <div class="profile-img"></div> 
+        <img src="headshot.jpg" alt="Peak 14 Consulting Profile" class="profile-img">
         
         <h1>Peak 14 Consulting</h1>
         <p>Strategic Solutions & Expert Guidance</p>
 
         <a href="contact.vcf" class="link-card cta-button">📥 Save to Contacts</a>
 
-        <a href="https://www.linkedin.com/in/tonydanderson" target="https://www.linkedin.com/in/tonydanderson" class="link-card">LinkedIn Profile</a> 
+        <a href="https://www.linkedin.com/in/tonydanderson" target="_blank" class="link-card">LinkedIn Profile</a>
         <a href="mailto:tonyanderson@peak14consulting.com" class="link-card">Email Me</a>
         <a href="#" class="link-card">Book a Consultation</a>
     </div>
 
 </body>
-
 </html>
