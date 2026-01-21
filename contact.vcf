@@ -1,10 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
-REV:2026-01-20T00:00:00Z
 N:Anderson;Tony;;;
-ORG:HCSS/Peak 14 Consulting
-TITLE:President
-TEL;CELL:13037203292
-EMAIL;INTERNET;WORK:tonyanderson@peak14consulting.com
+FN:Tony Anderson
+ORG:HCSS - Peak 14 Consulting
+TITLE:Consultant
+EMAIL;TYPE=work,pref:tonyanderson@peak14consulting.com
+URL:https://www.linkedin.com/in/tonydanderson
+REV:2026-01-21T08:00:00Z
 END:VCARD
-
